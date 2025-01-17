@@ -169,7 +169,6 @@ if (Auth::check()) {
                         @include('common.dashboard.with-title')
                     @endif
                 </div>
-
             </div>
         </div>
     </div>
