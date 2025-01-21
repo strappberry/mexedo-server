@@ -53,7 +53,7 @@ class SaveSettingsTest extends TestCase
                                     $field[ 'name' ] => match ( $field[ 'name' ] ) {
                                         'ns_store_language' => 'en',
                                         'ns_currency_symbol' => '$',
-                                        'ns_currency_iso' => 'USD',
+                                        'ns_currency_iso' => 'MXN',
                                         'ns_currency_thousand_separator' => '.',
                                         'ns_currency_decimal_separator' => ',',
                                         'ns_date_format' => 'Y-m-d',
