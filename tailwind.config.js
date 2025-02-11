@@ -80,6 +80,7 @@ module.exports = {
         orange: colors.orange,
         cyan: colors.cyan,
         celeste: '#312783',
+        rojo: '#b91c1c',
         
         typography: withOpacityValue('--typography'),
         
