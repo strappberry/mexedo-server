@@ -79,6 +79,7 @@ module.exports = {
         teal: colors.teal,
         orange: colors.orange,
         cyan: colors.cyan,
+        celeste: '#312783',
         
         typography: withOpacityValue('--typography'),
         

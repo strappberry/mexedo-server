@@ -65,3 +65,7 @@ if ( env( 'APP_DEBUG' ) ) {
 
     include dirname( __FILE__ ) . '/debug.php';
 }
+
+Route::get('/', function () {
+    return redirect('/sign-in');
+});

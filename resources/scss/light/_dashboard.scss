@@ -9,21 +9,21 @@
 }
 
 #dashboard-aside > div {
-    @apply bg-gray-900;
+    @apply bg-celeste;
     .ns-aside-menu {
         @apply text-gray-200 hover:bg-gray-700;
         &.toggled {
-            @apply border-blue-800 bg-blue-800;
+            @apply border-red-700 bg-red-700;
         }
         &.normal {
-            @apply border-transparent bg-gray-900;
+            @apply border-transparent bg-celeste;
         }
         .notification-label {
             @apply bg-red-600 text-white;
         }
     }
     .ns-aside-submenu {
-        @apply border-blue-800 bg-gray-800 hover:bg-gray-700;
+        @apply border-red-700 bg-red-800 hover:bg-blue-700;
         &.active {
             @apply text-white;
         }
